@@ -1,4 +1,4 @@
-FROM php:5.6
+FROM php:5.4
 
 RUN apt-get update \
 	&& apt-get install -qq \
